@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color: cyan;
+}
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+#wrapper-container{
+    margin: 1rem 0;
+}
+#wrapper-container input{
+    background-color: transparent;
+    width: 48%;
+    padding: 1em .3em;
+    border-bottom: 2px solid red;
+}
+#wrapper-container input:focus{
+    background-color: blueviolet;
+    border-bottom: yellow;
+}
